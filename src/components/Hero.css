@@ -1,0 +1,17 @@
+.custom-pagination .swiper-pagination-bullet {
+  width: 0.75rem; /* Increase width */
+  height: 0.75rem; /* Increase height */
+  background-color: white; /* Make dots visible */
+  opacity: 1; /* Ensure visibility */
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  background-color: yellow; /* Highlight active dot */
+  transform: scale(1.3); /* Slightly enlarge the active dot */
+}
+
+.text-outline {
+  color: white !important;
+  text-shadow: -0.15rem -0.15rem 0 black, 0.15rem -0.15rem 0 black,
+    -0.15rem -0.15rem 0 black, 0.15rem 0.15rem 0 black !important;
+}

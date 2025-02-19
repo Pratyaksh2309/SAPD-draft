@@ -1,0 +1,28 @@
+#physicsCanvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.physics-equation {
+  position: absolute;
+  font-size: 2rem;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: grab;
+  z-index: 10;
+  user-select: none;
+  transition: transform 0.1s linear;
+}
+
+.physics-equation:active {
+  cursor: grabbing;
+}
